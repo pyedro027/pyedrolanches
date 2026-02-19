@@ -122,12 +122,9 @@ h3 {
 
 /* Quando adicionar sua imagem PNG, use dentro de .brand: <img class="brand-logo" src="sua-logo.png"> */
 .brand-logo {
-  height: 80px;
-  width: auto;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  display: block;
-}
-
 }
 
 .menu-toggle {
