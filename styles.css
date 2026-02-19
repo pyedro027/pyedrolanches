@@ -106,24 +106,12 @@ h3 {
   font-size: 1.15rem;
 }
 
-.logo-slot {
-  width: clamp(120px, 20vw, 170px);
-  height: clamp(44px, 7vw, 56px);
-  border-radius: 12px;
-  border: 1px dashed rgba(255, 255, 255, 0.28);
-  background: rgba(255, 255, 255, 0.04);
-  color: var(--text-muted);
-  font-size: 0.82rem;
-  font-weight: 600;
-  display: grid;
-  place-items: center;
-  overflow: hidden;
-}
+
 
 /* Quando adicionar sua imagem PNG, use dentro de .brand: <img class="brand-logo" src="sua-logo.png"> */
 .brand-logo {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height:auto;
   object-fit: contain;
 }
 
@@ -776,3 +764,4 @@ a:focus {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
